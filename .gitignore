@@ -28,8 +28,3 @@ coverage
 *.sw?
 
 *.tsbuildinfo
-
-# amplify
-.amplify
-amplify_outputs*
-amplifyconfiguration*
