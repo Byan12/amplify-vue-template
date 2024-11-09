@@ -86,19 +86,36 @@
 					width: 33%;
 				}
 			}
+			.topmenu{
+				text-align: center;
+			}
+			.topmenudiv{
+				display: flex;
+				justify-content: center;
+			}
+			@media (min-width: 1024px) {
+				.topmenu{
+					display: flex; text-align: left;
+				}
+				.topmenudiv{
+					display: flex;  justify-content: flex-end;
+				}
+			}
 	</style>
   </head>
   <body>
-		  <div style="padding: 20px,0px; position: fixed; background-color: #ffffff; width: 100%; margin-top: -10px;">
-			<div style=" max-width: 1070px;margin-left: auto; margin-right: auto; display: flex; -webkit-align-items: center;">
-				<div>
-					<img style="height: 100%; max-height: 60px;" src="src/assets/home/logo-t.png"/>
+		  <div style="padding: 10px 0px; position: fixed; background-color: #ffffff; width: 100%; margin-top: -10px;">
+			<div class="topmenu" style=" max-width: 1070px;margin-left: auto; margin-right: auto;  -webkit-align-items: center;">
+				<div   style="width: 100%;">
+					<img style="height:10%; max-height: 40px;" src="src/assets/home/logo-t.png"/>
 				</div>
-				<div style="display: flex;  justify-content: flex-end;  width: 100%;">
-					<div><a href="#home">home</a></div>
-					<div style="margin-left: 20px;"><a href="#about">about</a></div>
-					<div style="margin-left: 20px;"><a href="#game">game</a></div>
-					<div style="margin-left: 20px;"><a href="#do">do</a></div>
+				<div>
+					<div class="topmenudiv"  style="width: 100%;">
+						<div><a href="#home">home</a></div>
+						<div style="margin-left: 20px;"><a href="#about">about</a></div>
+						<div style="margin-left: 20px;"><a href="#game">game</a></div>
+						<div style="margin-left: 20px; margin-right: 20px;"><a href="#do">do</a></div>
+					</div>
 				</div>
 			</div>
 		  </div>
