@@ -10,13 +10,13 @@
 			.context1{
 				display: block;
 			}
-			.2 {
+			.context1h2 {
 				width: 100%;
 			}
 			.context1p {
 				width: 100%;
 			}
-			@media (min-width: 1024px) {
+			@media (min-width: 1090px) {
 				.context1{
 					display: flex;
 				}
@@ -89,8 +89,23 @@
 	</style>
   </head>
   <body>
-		<div style="height: 8vw; padding-top: 5%;padding-bottom: 5%;padding-left: 2%;">
-			<img style="height: 100%;" src="src/assets/home/logo-t.png"/>
+		  <div style="padding: 20px,0px; position: fixed; background-color: #ffffff; width: 100%; margin-top: -10px;">
+			<div style=" max-width: 1070px;margin-left: auto; margin-right: auto; display: flex; -webkit-align-items: center;">
+				<div>
+					<img style="height: 100%; max-height: 60px;" src="src/assets/home/logo-t.png"/>
+				</div>
+				<div style="display: flex;  justify-content: flex-end;  width: 100%;">
+					<div><a href="#home">home</a></div>
+					<div style="margin-left: 20px;"><a href="#about">about</a></div>
+					<div style="margin-left: 20px;"><a href="#game">game</a></div>
+					<div style="margin-left: 20px;"><a href="#do">do</a></div>
+				</div>
+			</div>
+		  </div>
+		<div id="home" style="padding: 20px,0px;">
+			<div style=" max-width: 1070px;margin-left: auto; margin-right: auto;">
+					<!-- <img style="height: 100%; max-height: 60px;" src="src/assets/home/logo-t.png"/> -->
+			</div>
 		</div>
 		<div style="background-image: url('src/assets/home/主图.jpg'); background-position: 51.00% 44.00%;background-size: cover;
 				color: white;height: 100%;display: block;">
@@ -106,133 +121,163 @@
 				</div>
 			</div>
 		</div>
-		<div style="padding: 100px 15px 50px 15px" class="context1">
-			<div class="context1h2">
-				<h2 style="width: 100%;font-family: Montserrat;    font-weight: 700;    font-size: 36px;    line-height: 1.3em;    letter-spacing: 0.5px;        color: #2b2b2b;">
-					About <br>Prome <br>Game</h2>
+		<div  id="about" style=" max-width: 1070px;margin-left: auto; margin-right: auto;">
+			<div style="padding: 100px 15px 50px 15px" class="context1">	
+				<div class="context1h2">
+					<h2 style="width: 100%;font-family: Montserrat;    font-weight: 700;    font-size: 36px;    line-height: 1.3em;    letter-spacing: 0.5px;        color: #2b2b2b;">
+						About <br>Prome <br>Game</h2>
+				</div>
+				<div class="context1p">
+					<p style="margin: 0px;    color: #2b2b2b;    font-family: Roboto;    font-weight: 300;    font-size: 20px;    line-height: 36px;    letter-spacing: 0.5px;">
+						Prome Game is a leading game publishing company headquartered in Shanghai, China, with a focus on bringing innovative mobile games to the Mainland China market.
+							We are dedicated to delivering diverse gaming experiences by collaborating with both established and up-and-coming developers. Our goal is to introduce groundbreaking gameplay to a broad audience, creating a vibrant community of passionate players. We specialize in working with small to medium-sized enterprises and independent developers, providing them with tailored solutions to help their games succeed. From expert localization and market-specific adjustments to strategic promotion and monetization, Prome Game ensures that every title we publish resonates with local players while maximizing its revenue potential. At the heart of our mission is the desire to ignite the fire of game innovation. We believe in inspiring creativity, driving excellence, and fostering strong partnerships with developers. Together, we strive to leave a lasting mark on the gaming landscape, ensuring that each game reaches its full potential and provides players with unforgettable experiences.</p>
+					
+				</div>
 			</div>
-			<div class="context1p">
-				<p style="margin: 0px;    color: #2b2b2b;    font-family: Roboto;    font-weight: 300;    font-size: 20px;    line-height: 36px;    letter-spacing: 0.5px;">
-					Prome Game is a leading game publishing company headquartered in Shanghai, China, with a focus on bringing innovative mobile games to the Mainland China market.
-						We are dedicated to delivering diverse gaming experiences by collaborating with both established and up-and-coming developers. Our goal is to introduce groundbreaking gameplay to a broad audience, creating a vibrant community of passionate players. We specialize in working with small to medium-sized enterprises and independent developers, providing them with tailored solutions to help their games succeed. From expert localization and market-specific adjustments to strategic promotion and monetization, Prome Game ensures that every title we publish resonates with local players while maximizing its revenue potential. At the heart of our mission is the desire to ignite the fire of game innovation. We believe in inspiring creativity, driving excellence, and fostering strong partnerships with developers. Together, we strive to leave a lasting mark on the gaming landscape, ensuring that each game reaches its full potential and provides players with unforgettable experiences.</p>
-				
+		</div>
+		<div style=" max-width: 1070px;margin-left: auto; margin-right: auto;">
+			<div class="context2">
+				<div class="context2div">
+					<h2 class="context2h2">334</h2>
+					<p class="context2p">Satisfied Clients</p>
+				</div>
+				<div class="context2div">
+					<h2 class="context2h2">356</h2>
+					<p class="context2p">Project Completed</p>
+				</div>
+				<div class="context2div">
+					<h2 class="context2h2">9,561</h2>
+					<p class="context2p">Working Hour</p>
+				</div>
+				<div class="context2div">
+					<h2 class="context2h2">29</h2>
+					<p class="context2p">Award Winning</p>
+				</div>
+			</div>
+		</div>
+		<div id="game" style=" max-width: 1070px;margin-left: auto; margin-right: auto;">
+			<div style="background-color: #f2f2f2;padding: 50px 0px 35px 0px;">
+				<h2 style="font-family: Lora;
+					font-weight: 700;
+					font-size: 32px;
+					line-height: 1.5em;
+					width: 100%;
+					text-align: center;
+					color: #000;">Our Awesome Portfolio</h2>
+				<p style="margin: 30px 0px 0px 0px;
+					color: #111111;
+					font-family: Raleway;
+					font-weight: 400;
+					font-size: 16px;
+					text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, sit sed accumsan, viverra sociis ullamcorper aenean fermentum.</p>
+			</div>
+		</div>
+		<div style=" max-width: 1070px;margin-left: auto; margin-right: auto;">
+			<div class="context3">
+				<div class="context3div">
+					<img style="width: 100%;height: 100%;" src="src/assets/home/图1.jpg"/>
+				</div>
+				<div class="context3div">
+					<img style="width: 100%;height: 100%;" src="src/assets/home/图2.jpg"/>
+				</div>
+				<div class="context3div">
+					<img style="width: 100%;height: 100%;" src="src/assets/home/图1.jpg"/>
+				</div>
+				<div class="context3div">
+					<img style="width: 100%;height: 100%;" src="src/assets/home/图2.jpg"/>
+				</div>
+				<div class="context3div">
+					<img style="width: 100%;height: 100%;" src="src/assets/home/图1.jpg"/>
+				</div>
+				<div class="context3div">
+					<img style="width: 100%;height: 100%;" src="src/assets/home/图2.jpg"/>
+				</div>
+				<div class="context3div">
+					<img style="width: 100%;height: 100%;" src="src/assets/home/图1.jpg"/>
+				</div>
+				<div class="context3div">
+					<img style="width: 100%;height: 100%;" src="src/assets/home/图2.jpg"/>
+				</div>
+			</div>
+		</div>
+		<div id="do"  style=" max-width: 1070px;margin-left: auto; margin-right: auto;">
+			<div class="context4" style="padding: 100px 0px 0px 0px;">
+				<div>
+					<h2 style="font-family: Poppins;
+					font-weight: 700;
+					font-size: 39px;
+					width: 100%;
+					text-align: center;
+					color: #000;">WHAT WE DO</h2>
+				</div>
+				<div style="display: flex; flex-wrap:wrap;">
+					<div class="context4div">
+						<h2 style="display: block;    font-size: 1.5em;    margin-block-start: 0.83em;    margin-block-end: 0.83em;    margin-inline-start: 0px;    margin-inline-end: 0px;    font-weight: bold;">
+							Investment & Incubation</h2>
+						<p style="font-family: Roboto;    font-weight: 400;    font-size: 16px;">
+							We provide investments to game projects & development studios, help and support the studio growth, and offer planning and advice including studio establishment, company registry, equity distribution, corporate growth, etc.</p>
+					</div>
+					<div class="context4div">
+						<h2 style="display: block;    font-size: 1.5em;    margin-block-start: 0.83em;    margin-block-end: 0.83em;    margin-inline-start: 0px;    margin-inline-end: 0px;    font-weight: bold;">
+							Game Development</h2>
+						<p style="font-family: Roboto;    font-weight: 400;    font-size: 16px;">
+							Based on preliminary planning and product positioning, we provide support to the game development and optimization process including marketing, language localization, testing, optimization strategy, localized content development, platform porting, etc.</p>
+					</div>
+					<div class="context4div">
+						<h2 style="display: block;    font-size: 1.5em;    margin-block-start: 0.83em;    margin-block-end: 0.83em;    margin-inline-start: 0px;    margin-inline-end: 0px;    font-weight: bold;">
+							Publishing & Promotion</h2>
+						<p style="font-family: Roboto;    font-weight: 400;    font-size: 16px;">
+							We provide a comprehensive publishing strategy and implement it for all platforms. It includes qualification & licenses application, promotion planning, media promotion, KOL promotion, community operation, event exhibition, etc.</p>
+					</div>
+					<div class="context4div">
+						<h2 style="display: block;    font-size: 1.5em;    margin-block-start: 0.83em;    margin-block-end: 0.83em;    margin-inline-start: 0px;    margin-inline-end: 0px;    font-weight: bold;">
+							Marketing Operation</h2>
+						<p style="font-family: Roboto;    font-weight: 400;    font-size: 16px;">
+							We provide all marketing and operation services including crowdfunding, social media & community operation, feedback collection & analysis, crossover cooperation, IP operation, etc.</p>
+					</div>
+					<div class="context4div">
+						<h2 style="display: block;    font-size: 1.5em;    margin-block-start: 0.83em;    margin-block-end: 0.83em;    margin-inline-start: 0px;    margin-inline-end: 0px;    font-weight: bold;">
+							We cure</h2>
+						<p style="font-family: Roboto;    font-weight: 400;    font-size: 16px;">
+							Quisque velit nisi, pretium ut lacinia in, elementum id enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt.</p>
+					</div>
+					<div class="context4div">
+						<h2 style="display: block;    font-size: 1.5em;    margin-block-start: 0.83em;    margin-block-end: 0.83em;    margin-inline-start: 0px;    margin-inline-end: 0px;    font-weight: bold;">
+							We rely on people</h2>
+						<p style="font-family: Roboto;    font-weight: 400;    font-size: 16px;">
+							Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur aliquet quam id dui posuere blandit.</p>
+					</div>
+					
+				</div>
 			</div>
 			
 		</div>
-		<div class="context2">
-			<div class="context2div">
-				<h2 class="context2h2">334</h2>
-				<p class="context2p">Satisfied Clients</p>
-			</div>
-			<div class="context2div">
-				<h2 class="context2h2">356</h2>
-				<p class="context2p">Project Completed</p>
-			</div>
-			<div class="context2div">
-				<h2 class="context2h2">9,561</h2>
-				<p class="context2p">Working Hour</p>
-			</div>
-			<div class="context2div">
-				<h2 class="context2h2">29</h2>
-				<p class="context2p">Award Winning</p>
+		<div style=" max-width: 1070px;margin-left: auto; margin-right: auto;  margin-top: 100px;">
+			<div style="background-color: #097c4a;padding: 60px 15px;">
+				<h2 style="color: white;display: block;    font-size: 1.5em;    margin-block-start: 0.83em;    margin-block-end: 0.83em;    margin-inline-start: 0px;    margin-inline-end: 0px;    font-weight: bold;">
+						Have Any Questions?</h2>
+				<p style="color: white;font-family: Roboto;    font-weight: 400;    font-size: 16px;">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit massa condimentum enim, nisl vitae. Ultricies aliquet proin egestas donec viverra turpis luctus gravida ipsum.</p>
 			</div>
 		</div>
-		<div style="background-color: #f2f2f2;padding: 50px 0px 35px 0px;">
-			<h2 style="font-family: Lora;
-				font-weight: 700;
-				font-size: 32px;
-				line-height: 1.5em;
-				width: 100%;
-				text-align: center;
-				color: #000;">Our Awesome Portfolio</h2>
-			<p style="margin: 30px 0px 0px 0px;
-				color: #111111;
-				font-family: Raleway;
-				font-weight: 400;
-				font-size: 16px;
-				text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, sit sed accumsan, viverra sociis ullamcorper aenean fermentum.</p>
-		</div>
-		<div class="context3">
-			<div class="context3div">
-				<img style="width: 100%;height: 100%;" src="src/assets/home/图1.jpg"/>
+		<div style=" max-width: 1070px;margin-left: auto; margin-right: auto;padding: 60px 15px">
+			<div style="display: flex;">
+				<div style="width: 50%;">
+					Contact
+					<br>Public Relations :Yuki@nlentmt.com
+					<br>Business Cooperation : Alex@nlentmt.com
+				</div>
+				<div>
+					Information
+					<br>Privacy Policy
+				</div>
 			</div>
-			<div class="context3div">
-				<img style="width: 100%;height: 100%;" src="src/assets/home/图2.jpg"/>
-			</div>
-			<div class="context3div">
-				<img style="width: 100%;height: 100%;" src="src/assets/home/图1.jpg"/>
-			</div>
-			<div class="context3div">
-				<img style="width: 100%;height: 100%;" src="src/assets/home/图2.jpg"/>
-			</div>
-			<div class="context3div">
-				<img style="width: 100%;height: 100%;" src="src/assets/home/图1.jpg"/>
-			</div>
-			<div class="context3div">
-				<img style="width: 100%;height: 100%;" src="src/assets/home/图2.jpg"/>
-			</div>
-			<div class="context3div">
-				<img style="width: 100%;height: 100%;" src="src/assets/home/图1.jpg"/>
-			</div>
-			<div class="context3div">
-				<img style="width: 100%;height: 100%;" src="src/assets/home/图2.jpg"/>
+			<div style="border-bottom: 1px solid rgba(0,0,0,.15); margin: 15px;"></div>
+			<div style="text-align: center;">
+				Neverland Entertainment© 2021
 			</div>
 		</div>
-		<div class="context4" style="padding: 100px 0px 0px 0px;">
-			<div>
-				<h2 style="font-family: Poppins;
-				font-weight: 700;
-				font-size: 39px;
-				width: 100%;
-				text-align: center;
-				color: #000;">WHAT WE DO</h2>
-			</div>
-			<div style="display: flex; flex-wrap:wrap;">
-				<div class="context4div">
-					<h2 style="display: block;    font-size: 1.5em;    margin-block-start: 0.83em;    margin-block-end: 0.83em;    margin-inline-start: 0px;    margin-inline-end: 0px;    font-weight: bold;">
-						Investment & Incubation</h2>
-					<p style="font-family: Roboto;    font-weight: 400;    font-size: 16px;">
-						We provide investments to game projects & development studios, help and support the studio growth, and offer planning and advice including studio establishment, company registry, equity distribution, corporate growth, etc.</p>
-				</div>
-				<div class="context4div">
-					<h2 style="display: block;    font-size: 1.5em;    margin-block-start: 0.83em;    margin-block-end: 0.83em;    margin-inline-start: 0px;    margin-inline-end: 0px;    font-weight: bold;">
-						Game Development</h2>
-					<p style="font-family: Roboto;    font-weight: 400;    font-size: 16px;">
-						Based on preliminary planning and product positioning, we provide support to the game development and optimization process including marketing, language localization, testing, optimization strategy, localized content development, platform porting, etc.</p>
-				</div>
-				<div class="context4div">
-					<h2 style="display: block;    font-size: 1.5em;    margin-block-start: 0.83em;    margin-block-end: 0.83em;    margin-inline-start: 0px;    margin-inline-end: 0px;    font-weight: bold;">
-						Publishing & Promotion</h2>
-					<p style="font-family: Roboto;    font-weight: 400;    font-size: 16px;">
-						We provide a comprehensive publishing strategy and implement it for all platforms. It includes qualification & licenses application, promotion planning, media promotion, KOL promotion, community operation, event exhibition, etc.</p>
-				</div>
-				<div class="context4div">
-					<h2 style="display: block;    font-size: 1.5em;    margin-block-start: 0.83em;    margin-block-end: 0.83em;    margin-inline-start: 0px;    margin-inline-end: 0px;    font-weight: bold;">
-						Marketing Operation</h2>
-					<p style="font-family: Roboto;    font-weight: 400;    font-size: 16px;">
-						We provide all marketing and operation services including crowdfunding, social media & community operation, feedback collection & analysis, crossover cooperation, IP operation, etc.</p>
-				</div>
-				<div class="context4div">
-					<h2 style="display: block;    font-size: 1.5em;    margin-block-start: 0.83em;    margin-block-end: 0.83em;    margin-inline-start: 0px;    margin-inline-end: 0px;    font-weight: bold;">
-						We cure</h2>
-					<p style="font-family: Roboto;    font-weight: 400;    font-size: 16px;">
-						Quisque velit nisi, pretium ut lacinia in, elementum id enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt.</p>
-				</div>
-				<div class="context4div">
-					<h2 style="display: block;    font-size: 1.5em;    margin-block-start: 0.83em;    margin-block-end: 0.83em;    margin-inline-start: 0px;    margin-inline-end: 0px;    font-weight: bold;">
-						We rely on people</h2>
-					<p style="font-family: Roboto;    font-weight: 400;    font-size: 16px;">
-						Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur aliquet quam id dui posuere blandit.</p>
-				</div>
-				
-			</div>
-		</div>
-		<div style="background-color: #097c4a;padding: 60px 15px;">
-			<h2 style="color: white;display: block;    font-size: 1.5em;    margin-block-start: 0.83em;    margin-block-end: 0.83em;    margin-inline-start: 0px;    margin-inline-end: 0px;    font-weight: bold;">
-					Have Any Questions?</h2>
-			<p style="color: white;font-family: Roboto;    font-weight: 400;    font-size: 16px;">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit massa condimentum enim, nisl vitae. Ultricies aliquet proin egestas donec viverra turpis luctus gravida ipsum.</p>
-		</div>
+		
    </body>
 
 </html>
